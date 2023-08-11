@@ -1,0 +1,24 @@
+.charts {
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+}
+
+.chart {
+  display: flex;
+  flex: 1;
+}
+
+.json {
+  display: flex;
+  flex: 1;
+  height: 400px;
+}
+
+.inlineChart {
+  width: 100%;
+}
+
+.inlineChart:not(:first-child) {
+  margin-left: 8px;
+}
